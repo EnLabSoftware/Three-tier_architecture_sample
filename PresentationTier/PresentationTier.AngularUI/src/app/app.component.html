@@ -1,0 +1,23 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to <a href="https://enlabsoftware.com" target="_blank">{{ title }}!</a>
+  </h1>
+</div>
+
+<table>
+  <tr>
+    <th style="width: 50px; text-align: left">Id</th>
+    <th style="width: 100px; text-align: left">Name</th>
+  </tr>
+  <tr *ngFor="let work of works">
+    <td>
+      {{work.id}}
+    </td>
+    <td>
+      {{work.name}}
+    </td>
+  </tr>
+</table>
+
+
